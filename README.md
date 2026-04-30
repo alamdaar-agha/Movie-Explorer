@@ -3,6 +3,11 @@
 A modern movie discovery web app built with React and Vite that allows users to search for movies and explore trending titles in real time using the TMDB API.
 
 ---
+## 🌐 Live Demo
+
+👉 https://movie-explorer-virid.vercel.app/
+
+---
 
 ## 🚀 Features
 
@@ -51,9 +56,7 @@ npm run dev
 
 ---
 
-## 🌐 Live Demo
 
-👉 https://your-deployed-link.com
 
 ---
 
@@ -67,8 +70,6 @@ src/
   App.jsx
   main.jsx
 ```
-
----
 
 ## ⚠️ Environment Variables
 
