@@ -1,16 +1,98 @@
-# React + Vite
+# 🎬 Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern movie discovery web app built with React and Vite that allows users to search for movies and explore trending titles in real time using the TMDB API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🔍 Search for movies using real-time API data
+* 📈 View trending / most searched movies
+* ⚡ Fast and responsive UI
+* 🎨 Clean, modern design with Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** React (Vite)
+* **Styling:** Tailwind CSS
+* **Backend / Database:** Appwrite
+* **API:** TMDB (The Movie Database API)
+
+---
+
+## 📦 Installation & Setup
+
+1. Clone the repository:
+
+```bash id="c8x2kq"
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+2. Install dependencies:
+
+```bash id="v3m9ds"
+npm install
+```
+
+3. Create a `.env.local` file in the root directory and add:
+
+```bash id="kq7p1a"
+VITE_TMDB_API_KEY=your_api_key_here
+```
+
+4. Run the development server:
+
+```bash id="r9t6zw"
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+👉 https://your-deployed-link.com
+
+---
+
+## 📁 Project Structure
+
+```bash id="x2n8fj"
+src/
+  components/
+  pages/
+  services/
+  App.jsx
+  main.jsx
+```
+
+---
+
+## ⚠️ Environment Variables
+
+This project requires a TMDB API key.
+Make sure to add it in `.env.local`. This file is ignored from Git for security reasons.
+
+---
+
+## 📌 Future Improvements
+
+* Add user authentication with Appwrite
+* Save favorite movies
+* Improve recommendation/trending logic
+* Add pagination or infinite scrolling
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this project and improve it. Pull requests are welcome.
+
+---
+
+## 📄 License
+
+This project is for learning and portfolio purposes.
+
